@@ -1,0 +1,169 @@
+
+h1{
+    margin-left: 3% !important;
+}
+
+section{
+    width: 20%;
+    margin-top: 0;
+    padding-left: 3%;
+    float: left;
+}
+
+ul.pagenav{
+    padding: 0;
+    margin-right:30%;
+    list-style-type: none;
+    background-color: rgb(240, 245, 245);
+}
+
+ul.pagenav li{
+    padding: 12% 0 ;
+    list-style-type: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+li h3{
+    font-size: 100%;
+}
+
+aside#middle{
+    width: 50%;
+    display: block;
+    float: left;
+    padding-top: 0;
+}
+
+p.text {
+    line-height: 160%;
+}
+
+div.pn_ctr{
+    margin-bottom: 4%;
+}
+
+button.nearpage {
+    width: 15%;
+    min-width: 70px;
+    padding: 1.5% 0;
+    margin-top: 1%;
+    border-style: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(200,200,200,0.7);
+    background-color: rgb(240, 245, 245);
+    cursor: pointer;
+}
+
+button#next_1 {
+    position: relative;
+    float: right;
+}
+
+button#return {
+    position: relative;
+}
+
+button#next_2 {
+    position: relative;
+    float: right;
+}
+
+aside#right{
+    width: 25%;
+    display: block;
+    float: left;
+    padding-top: 0;
+}
+
+aside#right h5{
+    margin: 5% 25%;
+    font-size: 20px;
+}
+
+ul.sitenav{
+    padding: 0;
+    margin-left:25%;
+    list-style-type: none;
+    background-color: rgb(240, 245, 245);
+}
+
+ul.sitenav li{
+    padding: 1% 4%!important;
+    list-style-type: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+ul.sitenav li h6{
+    margin:3%;
+    font-size: 15px;
+}
+
+ul.sitenav li span{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+div#footer{
+    clear:both;
+}
+
+@media (max-width:768px){
+    h1{
+      margin-left: 2%;
+      margin-bottom: 3%;
+    }
+    section{
+      width: 97%;
+      margin-left: 1.5%;
+      margin-right: 0;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    ul.pagenav{
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      display: flex;
+    }
+    ul.pagenav *{
+      width:100%;
+      margin-top:2%;
+      margin-bottom:2%;
+      padding:1% !important;
+    }
+    li h3{
+      width:100%;
+      margin-top:2%;
+      margin-bottom:2%;
+      font-size:80%;
+    }
+    aside{
+      margin-left:2%;
+      width: 96% !important; 
+    }
+    ul.sitenav{
+      width:70%;
+      margin:auto auto 10%;
+      padding-left:0;
+    }
+    ul.sitenav *{
+      width:100%;
+      margin-top:2%;
+      margin-bottom:2%;
+    }
+    li h6{
+      width:100%;
+      margin-top:5%;
+      margin-bottom:2%;
+      font-size:80%;
+    }
+    
+    aside#right h5{
+      margin-top: 7%;
+      margin-left:15%;
+      margin-bottom:2%;
+      font-size:15px;
+    }
+}
